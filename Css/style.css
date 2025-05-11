@@ -1,0 +1,28 @@
+body{
+    background-color: #b2744b;
+}
+#orginal{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: wheat;
+    font-size: 21px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
+    
+@media(max-width : 567px){
+    .container{
+        height: 100dvh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #orginal{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
